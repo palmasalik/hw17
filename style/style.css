@@ -1,0 +1,741 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+text-decoration: none;
+}
+body,
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1736px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
+}
+.nav-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.link{
+    width: max-content;
+font-family: 'SF Pro Display';
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+opacity: 0.8;
+margin: 0 10px 0 0;
+padding: 10px 5px;
+transition: .3s;
+}
+.link:hover{
+background: #AC1216;
+border-radius: 10px;
+}
+.title{
+    font-family: 'SF Pro Display';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #E11D2E;
+    width: 609px;
+}
+.about-title{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #71768E;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.title-text{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #A0A3B5;
+    width: 689px;
+    margin-bottom: 46px;
+}
+.perexod{
+font-family: 'SF Pro Display';
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.9;
+padding: 27px 30px;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 10px;
+transition: .5s;
+margin-right: 25px;
+}
+.perexod:hover{
+    background: #E11D2E;
+    border-radius: 10px;
+}
+.silka{
+    display: flex;
+    align-items: center;
+}
+input{
+border: 1px solid rgba(255, 255, 255, 0.09);
+box-sizing: border-box;
+border-radius: 10px;
+width: 500px;
+display: flex;
+flex-direction: column;
+padding: 20px 25px;
+margin-top: 20px;
+margin-bottom: 130px;
+opacity: 0.1;
+}
+input::placeholder{
+font-family: 'SF Pro Display';
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+}
+.pection{
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.abs {
+    position: absolute;
+    right: 207px;
+    width: 600px;
+    height: 782px;
+    top: -99px;
+}
+.aso {
+    position: absolute;
+    right: -95px;
+    top: -90px;
+    opacity: 0.5;
+}
+.right{
+    position: relative;
+    margin-right: 130px;
+}
+.rel{
+    position: absolute;
+    right: 10.42%;
+}
+.zvkr{
+    position: absolute;
+    left: -705px;
+    top: 23%;
+}
+.zvor{
+    position: absolute;
+    top: 6.81%;
+    right: 20px;
+}
+.path270{
+    position: absolute;
+    top: 40%;
+}
+.krug {
+    position: absolute;
+    right: -130px;
+    top: 372px;
+}
+.stroka{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #5A4039;
+padding: 11px 0;
+}
+.liniya{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: rgba(255, 245, 0, 0.6);
+}
+body{
+    background: #101932;
+}
+.perecheslenie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.rita{
+    margin-right: 10px;
+    opacity: 0.1;
+}
+.inside{
+    margin-top: -140px;
+    position: relative;
+}
+.puk{
+position: absolute;
+left: 25.94%;
+z-index: 1;
+
+}
+.earth{
+position: absolute;
+left: 41.89%;
+top: 297px;
+}
+.smdog{
+    position: absolute;
+    left: 46.5%;
+    top: 388px;
+}
+.text{
+position: absolute;
+width: 552px;
+top: 240px;
+left: 37%;
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.smtext{
+position: absolute;
+width: 125px;
+top: 575px;
+left: 46%;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background: #E11D2E;
+border-radius: 10px;
+padding: 10px 45px 15px;
+}
+.red{
+    position: absolute;
+width: 108px;
+height: 108px;
+left: 536px;
+top: 430px;
+}
+.blut{
+    position: absolute;
+width: 108px;
+height: 108px;
+left: 1276px;
+top: 170px;
+}
+.orangt{
+    position: absolute;
+width: 108px;
+height: 108px;
+left: 1085px;
+    top: 750px;
+}
+.title-how{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+display: flex;
+align-items: center;
+display: flex;
+    justify-content: center;
+color: #FFFFFF;
+}
+.disflex{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.sborka{
+background: #384D70;
+border-radius: 20px;
+padding: 30px 40px 40px 40px;
+}
+.start{
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 416px;
+    margin-top: 30px;
+}
+.start-about{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 400px;
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.start-bottom{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 416px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.first-main{
+    position: relative;
+    top: 900px;
+    padding-bottom: 160px
+}
+.second-main{
+    position: relative;
+    top: 900px;
+    padding-bottom: 175px
+}
+.play{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.play-about{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.third-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #071022;
+border-radius: 30px;
+padding: 36px 50px 60px;
+margin-top: 50px;
+}
+.main_title{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.about_title{
+font-family: 'SF Pro Display';
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: rgba(255, 255, 255, 0.6);
+margin-top: 20px;
+}
+.right_main{
+    margin-left: 41px;
+}
+.relat{
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.ldog{
+    position: absolute;
+    left: 3.19%;
+    top: 27%;
+}
+.pauk{
+    position: absolute;
+    left: 25%;
+}
+.gobkin{
+    position: absolute;
+    left: 26%;
+}
+.five-main{
+background: #30298C;
+position: relative;
+top: 900px;
+}
+.six-main{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+height: 662px;
+}
+
+.left_main_sborka{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.piter{
+
+left: 0%;
+top: 37.23%;
+}
+.piter-title{
+position: absolute;
+left: 95px;
+top: 177px;
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+max-width: 375px;
+}
+.piter-about{
+    top: 48%;
+    position: absolute;
+    left: 95px;
+    max-width: 552px;
+font-family: 'SF Pro Display';
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.piter-botom{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+top: 61%;
+left: 95px;
+padding: 25px 30px;
+background: #E11D2E;
+border-radius: 10px;
+}
+.qwerty{
+font-family: 'SF Pro Display';
+max-width: 300px;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+.asdf{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+opacity: 0.8;
+max-width: 860px;
+}
+.right_main_sborka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 972px;
+}
+.zxcv{
+    margin-left: 20px;
+}
+.poiu{
+    margin-top: 40px;
+    border-radius: 20px solid;
+    border: 1px solid #574fbb;
+    align-items: center;
+    display: flex;
+    padding-top: 15px;
+    border-radius: 20px;
+    padding: 21px 0 0;
+    height: 74px
+}
+.zvezda{
+    margin-top: 40px;
+    border-radius: 20px solid;
+    border: 1px solid #574fbb;
+    align-items: center;
+    display: flex;
+    padding-top: 15px;
+    border-radius: 20px;
+    padding: 21px 0 0;
+    height: 74px
+}
+
+.qwas{margin-left: 30px;margin-top: 50px;}
+
+.seven-main{
+position: relative;
+top: 900px;
+padding-top: 70px;
+padding-bottom: 130px;
+
+}
+.road{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+.inside-left{
+    background: rgba(56, 77, 112, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border-radius: 30px;
+display: flex;
+width: 792px;
+padding: 35px 148px 35px 35px;
+}
+.one{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 65px;
+line-height: 78px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+opacity: 0.5;
+background: #384D70;
+opacity: 0.2;
+border-radius: 30px;
+padding: 34px 53px; 
+width: max-content;
+margin-right: 30px;
+height: 90px;
+}
+.odin{
+font-family: 'SF Pro Display';
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.peraf{
+font-family: 'SF Pro Display';
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+width: 562px;
+}
+.qw{
+    margin-bottom: 426px;
+}
+.we{margin-bottom: 400px;}
+.mop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.zx{
+    margin-top: 276px;
+    margin-bottom: 423px;
+}
+.eight-main{
+    background: #162344;
+    position: relative;
+top: 900px;
+padding-top: 70px;
+padding-bottom: 140px;
+}
+.oner{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 60px;
+}
+.name{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+.about-name{
+font-family: 'SF Pro Display';
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.grexi{
+    width: max-content;
+}
+.grot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.retro{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 140px;
+margin-bottom: 40px;
+}
+.tor{
+    display: flex;
+    justify-content: space-between;
+}
+.nine-main{
+    position: relative;
+    top: 900px;
+}
+.outsider{
+background: #000000;
+opacity: 0.3;
+border-radius: 15px;
+width: 444px;
+padding: 35px 50px 20px 30px;
+margin-bottom: 25px;
+}
+.loyal{
+    font-style: normal;
+    width: 364px;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.chip{
+    font-family: 'SF Pro Display';
+width: 362px;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+opacity: 0.3;
+}
+.lofey{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+.qweasd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 66px;
+    padding-bottom: 130px;
+}
+.footer{
+    background: #162758;
+    position: relative;
+    top: 900px;
+}
+.opo{
+    text-align: center;
+    position: relative;
+}
+.jora{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+display: flex;
+justify-content: center;
+color: #FFFFFF;
+left: 590px;
+top: 60px;
+position: absolute;
+width: 510px;
+}
+.tet{
+    position: absolute;
+    top: 290px;
+    left: 34%;
+}
+.yolop{
+    position: absolute;top: 420px;left: 41%;
+}

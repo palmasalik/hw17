@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito/Nunito-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPro/SFProDisplay-Semibold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPro/SFProDisplay-Bold.woff2);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPro/SFProDisplay-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPro/SFProDisplay-Regular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPro/SFProDisplay-Heavy.woff2);
+    font-weight: 600;
+}
+
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url(../icon/webfonts/fa-brands-400.woff2);
+    font-weight: 400;
+}
+.fab{
+    font-family: 'Font Awesome' ;
+    font-weight: 400;
+    margin-right: 40px;
+}
+.fa-telegram-plane::before {
+    content: '\f3fe';
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    background: #E11D2E;
+    border-radius: 16px;
+    padding: 30px 25px;
+}
+.fa-twitter::before{
+    content: '\f099';
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    background: #E11D2E;
+    border-radius: 16px;
+    padding: 30px 25px; 
+}
+.fa-facebook::before{
+    content: '\f09a';
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    background: #E11D2E;
+    border-radius: 16px;
+    padding: 30px 25px; 
+}
+
+.fa-instagram::before{
+    content: '\f16d';
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    background: #E11D2E;
+    border-radius: 16px;
+    padding: 30px 25px;
+}
